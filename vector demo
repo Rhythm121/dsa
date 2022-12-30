@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include<vector>
+using namespace std;
+int main() {
+ //initialization with fill constructor  
+ vector<int> arr(10,7);
+  
+  
+   //delete the elast element and pop back by pop fuction
+   arr.pop_back();
+  
+   //puch_back 
+   arr.push_back(16);
+   //size if the vector
+  // cout<<arr.size()<<endl;
+   //cpacity of th vector
+   //print all th element of the vector 
+   for(int i=0;i<arr.size();i++)
+   {
+       cout<<arr[i]<<endl;
+   }
+//cout<<arr.capacity()<<endl;
+    return 0;
+}
